@@ -14,5 +14,6 @@ namespace QA2.Data
         {
         }
         public DbSet<QA2.Models.Question> Question { get; set; }
+        public DbSet<QA2.Models.Graph> Graph { get; set; }
     }
 }
